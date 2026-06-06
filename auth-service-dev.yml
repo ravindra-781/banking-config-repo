@@ -1,1 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_dev_db
+    username: postgres
+    password: postgres
 
+  jpa:
+    hibernate:
+      ddl-auto: update
+message: Devlopment configuration
